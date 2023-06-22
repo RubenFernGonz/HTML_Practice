@@ -1,0 +1,263 @@
+body{
+    background-color: #F4C299;
+    text-align: center;
+}
+
+header{
+    background-color: rgba(70, 70, 70, 0.41);
+    border-radius: 10px;
+    padding: 30px;
+    color: rgb(224, 219, 212);
+
+}
+
+header a{
+    margin-left: 20px;
+}
+
+footer{
+    background-color: rgba(152, 135, 135, 0.41);
+    color: rgb(83, 83, 95);
+    border-radius: 30px;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+
+ul, ol {
+    list-style-position: inside;
+    /*Tranforma las letras en mayuscula*/
+    text-transform: uppercase;
+}
+
+ul{
+    /*list-style-type permite cambiar como numerar la lista*/
+    list-style-type: upper-roman;
+}
+
+table {
+    margin: 0 auto;
+    border: 1px solid red;
+    width: 80%;
+}
+
+td{
+    border: 1px solid black;
+}
+
+#tux{
+    width: 80px;
+}
+
+a:visited {
+    color: rgb(93, 144, 64);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  a:active {
+    text-decoration: underline;
+  }
+
+  .ciudad{
+    background-color: tomato;
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  #enlaces{
+    background-color: rgb(146, 185, 146, 0.8);
+  }
+
+  #listas{
+    background-image: url("recursos/duke.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-color: rgb(143, 143, 158);
+  }
+
+  #formularios{
+
+background-image: url("recursos/tux.png");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: contain;
+background-position: right;
+background-color: rgb(143, 158, 151);
+
+  }
+
+  /*
+BORDES
+dotted - Defines a dotted border
+dashed - Defines a dashed border
+solid - Defines a solid border
+double - Defines a double border
+groove - Defines a 3D grooved border. The effect depends on the border-color value
+ridge - Defines a 3D ridged border. The effect depends on the border-color value
+inset - Defines a 3D inset border. The effect depends on the border-color value
+outset - Defines a 3D outset border. The effect depends on the border-color value
+none - Defines no border
+hidden - Defines a hidden border
+
+MARGIN PADDING
+margin: Se utiliza para crear espacios entre elementos adyacentes, separar elementos entre sí o alejar elementos de los bordes del contenedor.
+padding: Se utiliza para agregar espacio dentro de un elemento y separar el contenido del borde del elemento.
+*/
+
+.container {
+    width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+  
+
+blockquote{
+    font-family: "Lucida Console", "Courier New", monospace;
+    line-height: 2;/*Modifica altura de la linea*/
+}
+
+#cursor{
+    margin-right: 10px;
+}
+
+.box {
+height: 100px;
+    background-color: rgb(192, 159, 181);
+    color: white;
+    text-align: center;
+    line-height: 100px;
+  }
+  
+  .box:hover {
+    background-color: rgb(134, 173, 111);
+  }
+
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+  #colorInput{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+  }
+
+  /*Estilos del formulario*/
+
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0062cc;
+  }
+  
+  input[type="file"] {
+    margin-bottom: 15px;
+  }
+  
+  input[type="range"] {
+    width: 100%;
+  }
+  
+  output {
+    font-weight: bold;
+  }
